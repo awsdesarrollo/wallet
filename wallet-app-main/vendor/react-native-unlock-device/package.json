@@ -1,0 +1,53 @@
+{
+  "_args": [
+    [
+      "react-native-unlock-device@1.3.0",
+      "D:\\Proyectos\\Limonbyte\\Otrotaxi\\V2\\app-conductor-v2"
+    ]
+  ],
+  "_from": "react-native-unlock-device@1.3.0",
+  "_id": "react-native-unlock-device@1.3.0",
+  "_inBundle": false,
+  "_integrity": "sha512-GpdjJXOy0gHZ7X/M2gSXe78DeIKBUMgNzsFepcFMULDvE45/HOh6zCperXvqEGfhNJuuqP8mdfDNqK4cXok68g==",
+  "_location": "/react-native-unlock-device",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-unlock-device@1.3.0",
+    "name": "react-native-unlock-device",
+    "escapedName": "react-native-unlock-device",
+    "rawSpec": "1.3.0",
+    "saveSpec": null,
+    "fetchSpec": "1.3.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-unlock-device/-/react-native-unlock-device-1.3.0.tgz",
+  "_spec": "1.3.0",
+  "_where": "D:\\Proyectos\\Limonbyte\\Otrotaxi\\V2\\app-conductor-v2",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/sieuhuflit/react-native-unlock-device/issues"
+  },
+  "description": "## Getting started",
+  "homepage": "https://github.com/sieuhuflit/react-native-unlock-device#readme",
+  "keywords": [
+    "react-native"
+  ],
+  "license": "",
+  "main": "index.js",
+  "name": "react-native-unlock-device",
+  "peerDependencies": {
+    "react-native": "0.51.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sieuhuflit/react-native-unlock-device.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.3.0"
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Wallet</string>
+    <color name="primary_dark">#000000</color>
+    <string name="facebook_app_id">318880060279237</string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>$(PRODUCT_NAME)</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>$(PRODUCT_NAME)</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>$(MARKETING_VERSION)</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleVersion</key>
+    <string>$(CURRENT_PROJECT_VERSION)</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+      <key>NSExceptionDomains</key>
+      <dict>
+        <key>localhost</key>
+        <dict>
+          <key>NSExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+        </dict>
+      </dict>
+    </dict>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>La aplicación usa la galería para subir fotos</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>La aplicación usa el Bluetooth</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>La aplicación necesita el Bluetooth</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>La aplicación necesita el calendario</string>
+    <key>NSCameraUsageDescription</key>
+    <string>La aplicación necesita la cámara para subir fotos</string>
+    <key>NSContactsUsageDescription</key>
+    <string>La aplicación necesita los contactos</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>La aplicación usa el GPS para mostrar la ubicación</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>La aplicación usa el GPS para mostrar la ubicación</string>
+    <key>NSLocationUsageDescription</key>
+    <string>La aplicación usa el GPS para mostrar la ubicación</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>La aplicación usa el GPS para mostrar la ubicación</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>La aplicación usa el micrófono para la grabación de videos</string>
+    <key>NSMotionUsageDescription</key>
+    <string>La aplicación necesita permisos especiales</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>La aplicación usa la galería para subir fotos</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>La aplicación usa la galería para subir fotos</string>
+    <key>NSRemindersUsageDescription</key>
+    <string>La aplicación necesita permisos especiales</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>La aplicación necesita reconocimiento de voz</string>
+    <key>UIAppFonts</key>
+    <array>
+      <string>AntDesign.ttf</string>
+      <string>Entypo.ttf</string>
+      <string>EvilIcons.ttf</string>
+      <string>Feather.ttf</string>
+      <string>FontAwesome.ttf</string>
+      <string>FontAwesome5_Brands.ttf</string>
+      <string>FontAwesome5_Regular.ttf</string>
+      <string>FontAwesome5_Solid.ttf</string>
+      <string>Fontisto.ttf</string>
+      <string>Foundation.ttf</string>
+      <string>Ionicons.ttf</string>
+      <string>MaterialCommunityIcons.ttf</string>
+      <string>MaterialIcons.ttf</string>
+      <string>Octicons.ttf</string>
+      <string>SimpleLineIcons.ttf</string>
+      <string>Zocial.ttf</string>
+      <string>FiraSans-Bold.ttf</string>
+      <string>FiraSans-ExtraBold.ttf</string>
+      <string>FiraSans-Medium.ttf</string>
+      <string>FiraSans-Regular.ttf</string>
+    </array>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>location</string>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>CDVLaunchScreen</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>armv7</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>UIStatusBarHidden</key>
+    <false/>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+  </dict>
+</plist>

@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components {
+  #layout {
+    @apply h-screen;
+  }
+  #layout > main {
+    min-height: 100vh;
+    @apply p-4 lg:pt-20 bg-[#19173D] lg:pl-20 transition-all;
+  }
+  #layout .desk-sidebar {
+    @apply sticky lg:top-0 z-20;
+  }
+  #layout .desk-sidebar.desk-sidebar__header {
+    @apply z-30;
+  }
+  #layout .desk-sidebar .sidebar-logo {
+    @apply hidden top-0 lg:fixed lg:z-50 lg:flex grow flex-col gap-y-5 border-r border-background bg-background px-2 transition-all;
+  }
+  #layout .desk-sidebar .sidebar-logo, #layout .desk-sidebar aside {
+    @apply w-16 transition-all;
+  }
+  #layout .desk-sidebar:not(.desk-sidebar__header) {
+    margin-top: -164px;
+    @apply lg:mt-0 transition-all;
+  }
+  #layout .desk-sidebar aside {
+    @apply w-full lg:w-16 lg:fixed lg:pt-16 lg:inset-y-0 lg:flex lg:flex-col;
+  }
+  #layout .desk-sidebar aside > div {
+    padding-top: 0.5rem;
+    @apply flex grow flex-col gap-y-5 overflow-y-auto border-r border-background bg-background px-6 pb-4;
+  }
+  #layout .desk-sidebar aside > div::-webkit-scrollbar {
+    width: 4px;
+    background-color: #00000011;
+  }
+  #layout .desk-sidebar aside > div::-webkit-scrollbar-thumb {
+    background-color: #00000022;
+  }
+  #layout .desk-sidebar aside .menu-item span {
+    @apply lg:hidden;
+  }
+  #layout .desk-sidebar aside .menu-item a {
+    @apply p-1;
+  }
+  #layout .desk-sidebar:not(.open) aside .menu-item a.active {
+    @apply text-primary;
+  }
+  #layout .desk-sidebar.open aside .menu-item a.active {
+    @apply text-primary;
+  }
+  #layout .desk-sidebar.open:not(.desk-sidebar__header) {
+    margin-top: 0;
+  }
+  #layout .desk-sidebar.open aside .menu-item span {
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  #layout .desk-sidebar .sidebar-logo .sidebar-logo__wrapper {
+    @apply flex h-16 shrink-0 items-center transition-all;
+  }
+  #layout .desk-sidebar .sidebar-logo .sidebar-logo__wrapper img {
+    @apply h-10 w-auto mx-auto  transition-all;
+  }
+  #layout .desk-sidebar.open .sidebar-logo, #layout .desk-sidebar.open aside {
+    @apply w-full lg:w-72;
+  }
+  #layout .desk-sidebar.open .sidebar-logo .sidebar-logo__wrapper img {
+    @apply h-14;
+  }
+  #layout .desk-sidebar.open .sidebar-logo .sidebar-logo__wrapper .sidebar-logo__cropped,
+  #layout .desk-sidebar:not(.open) .sidebar-logo .sidebar-logo__wrapper .sidebar-logo__normal {
+    @apply hidden;
+  }
+  #layout .desk-sidebar:not(.open) .sidebar-logo .sidebar-logo__wrapper .sidebar-logo__cropped,
+  #layout .desk-sidebar.open .sidebar-logo .sidebar-logo__wrapper .sidebar-logo__normal {
+    @apply visible;
+  }
+  #layout .desk-sidebar .desk-headerbar {
+    @apply sticky lg:fixed lg:top-0 z-40 flex h-16 w-full shrink-0 items-center gap-x-4 border-b border-background bg-background px-4 shadow-sm sm:px-6 lg:pl-[4.5rem] lg:pr-8 transition-all;
+  }
+  #layout .desk-sidebar.open .desk-headerbar, #layout .desk-sidebar.open ~ main {
+    @apply lg:pl-[19rem];
+  }
+  #layout .desk-sidebar .desk-headerbar > button {
+    @apply -m-2.5 lg:ml-0;
+  }
+  #layout .desk-sidebar.open .desk-headerbar > button {
+    @apply -m-2.5;
+  }
+
+  table thead tr th {
+    @apply !text-sm !bg-black/20 !text-primary;
+    white-space: normal !important;
+    line-height: 16px !important;
+    @apply py-2;
+  }
+
+  div[data-slot="input-wrapper"], div[data-slot="mainWrapper"] button[data-slot="trigger"] {
+    @apply bg-background border-foreground hover:border-foreground;
+  }
+}

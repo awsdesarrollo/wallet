@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "880375584601",
+    "project_id": "wallet-app-fdc4b",
+    "storage_bucket": "wallet-app-fdc4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880375584601:android:8314894fbde06101669e48",
+        "android_client_info": {
+          "package_name": "com.limonbyte.wallet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB6TdqSp4Ch-H9d0oAIt4iTkdkGLP_kaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

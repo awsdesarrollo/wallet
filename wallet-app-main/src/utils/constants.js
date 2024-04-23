@@ -1,0 +1,46 @@
+export default {
+	PER_PAGE: 30,
+	LEVELS: {
+		ADMIN: 1,
+		CLIENT: 2,
+		DRIVER: 3
+	},
+	TYPES: {
+		URGENT: 1,
+		SCHEDULE: 2
+	},
+	USER: {
+		STATUS: {
+			PENDING: 0,
+			ACTIVE: 1,
+			INACTIVE: 2,
+		},
+		VERIFIED: {
+			PENDING: 0,
+			APPROVED: 1,
+			REJECTED: 2,
+		}
+	},
+	WITHDRAWAL_METHOD: {
+		CASH: 1,
+		WALLET: 2,
+	},
+	ORDER: {
+		FUNDS_SOURCE: {
+			BALANCE: 1,
+			PERFORMANCE: 2,
+		},
+		PAYMENT_METHOD: {
+			CASH: 1,
+			WALLET: 2,
+		},
+		STATUS: {
+			PENDING: 0,
+			APPROVED: 1,
+			REJECTED: 2,
+		},
+	},
+	FONTSIZE: 16,
+	FONTSIZEDIV: 1.2,
+	THRESHOLD_DISTANCE: 0.6,
+}
