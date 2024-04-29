@@ -1,3 +1,6 @@
+Descargar Apk aqui:
+https://drive.google.com/drive/folders/1PNk0q44IvUki7VD_yzEAIgIu134bC9qv?usp=sharing
+
 https://tcp-app.com/web/login
 user admin@mail.com.com
 pass 123456
